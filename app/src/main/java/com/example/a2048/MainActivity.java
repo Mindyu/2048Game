@@ -596,7 +596,7 @@ public class MainActivity extends Activity implements View.OnClickListener, View
                 break;
             case 256:
                 btn = (TextView) findViewById(btnBlock[x][y]);
-                btn.setTextSize(28);
+                btn.setTextSize(20);
                 btn.setTextColor(Color.RED);
                 btn.setGravity(Gravity.CENTER);
                 btn.setBackground(getDrawable(R.drawable.border256));
@@ -605,7 +605,7 @@ public class MainActivity extends Activity implements View.OnClickListener, View
                 break;
             case 512:
                 btn = (TextView) findViewById(btnBlock[x][y]);
-                btn.setTextSize(28);
+                btn.setTextSize(20);
                 btn.setTextColor(Color.RED);
                 btn.setGravity(Gravity.CENTER);
                 btn.setBackground(getDrawable(R.drawable.border512));
@@ -614,7 +614,7 @@ public class MainActivity extends Activity implements View.OnClickListener, View
                 break;
             case 1024:
                 btn = (TextView) findViewById(btnBlock[x][y]);
-                btn.setTextSize(28);
+                btn.setTextSize(20);
                 btn.setTextColor(Color.RED);
                 btn.setGravity(Gravity.CENTER);
                 btn.setBackground(getDrawable(R.drawable.border1024));
@@ -623,7 +623,7 @@ public class MainActivity extends Activity implements View.OnClickListener, View
                 break;
             case 2048:
                 btn = (TextView) findViewById(btnBlock[x][y]);
-                btn.setTextSize(28);
+                btn.setTextSize(20);
                 btn.setTextColor(Color.RED);
                 btn.setGravity(Gravity.CENTER);
                 btn.setBackground(getDrawable(R.drawable.border2048));
@@ -631,11 +631,6 @@ public class MainActivity extends Activity implements View.OnClickListener, View
                 btn.setText(String.valueOf(flag));
                 break;
             default:
-                btn = (TextView) findViewById(btnBlock[x][y]);
-                btn.setTextSize(28);
-                btn.setTextColor(Color.RED);
-                btn.setGravity(Gravity.CENTER);
-                btn.setBackgroundColor(0xff3c3a32);
                 break;
         }
     }
